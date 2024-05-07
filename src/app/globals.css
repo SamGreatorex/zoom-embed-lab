@@ -79,3 +79,39 @@ a {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+form label {
+  margin: 5px;
+}
+
+form input {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #03145e;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the link as a button */
+button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #03145e; /* Button color */
+  color: #fff; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  margin: 10px;
+}
+
+/* Change background color on hover */
+button:hover {
+  background-color: #0056b3; /* Darker shade of button color */
+}
