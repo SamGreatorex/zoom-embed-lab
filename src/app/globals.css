@@ -17,7 +17,6 @@ a {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 form label {
@@ -28,12 +27,13 @@ form input {
   margin: 5px;
   padding: 10px;
   border-radius: 10px;
+  color: black;
 }
 
 input[type="submit"] {
   background-color: #03145e;
   border: none;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
